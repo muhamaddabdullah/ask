@@ -79,3 +79,16 @@ button {
     pointer-events: none;
     z-index: 1;
 }
+
+.bow {
+    position: absolute;
+    top: -50px;
+    font-size: 24px;
+    animation: fall linear infinite;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(100vh);
+    }
+}
